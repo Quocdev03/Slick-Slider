@@ -1,3 +1,3 @@
 # Slick-Slider
-Create Slider 
-Slick Slider Library
+- Create Slider 
+- Slick Slider Library
