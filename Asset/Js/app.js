@@ -7,6 +7,8 @@ $(document).ready(function () {
         slidesToScroll: 1, // số lượng ảnh cuộn
         arrows: true, // true: hiển thị 2 nút next, prev, false: ẩn 2 nút next, prev
         draggable: true, // true: kéo được, false: không kéo được
+        autoplay: false, // true: tự động chạy, false: không tự động chạy
+        autoplaySpeed: 2000, // thời gian chạy 
         prevArrow: // nút prev
             `<button type='button' class='slick-prev pull-left slick-arrow'><ion-icon name="arrow-back-outline"></ion-icon></button>`,
         nextArrow: // nút next
@@ -39,7 +41,5 @@ $(document).ready(function () {
                 }
             },
         ],
-        autoplay: true, // true: tự động chạy, false: không tự động chạy
-        autoplaySpeed: 2000, // thời gian chạy 
     });
 });
