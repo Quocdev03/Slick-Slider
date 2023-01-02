@@ -1,4 +1,4 @@
-// Sử dụng thư viện slick slider
+// Sử dụng thư viện slick slider ( Cơ Bản )
 $(document).ready(function () {
     $('.images-slider').slick({
         // các thuộc tính của thư viện slick slider
